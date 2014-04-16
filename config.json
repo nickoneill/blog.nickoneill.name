@@ -1,0 +1,11 @@
+{
+    "contentdir": "content",
+    "layoutdir": "layouts",
+    "publishdir": "public",
+    "builddrafts": false,
+    "indexes": {
+       "tag": "tags"
+    },
+    "baseurl": "http://blog.nickoneill.name/",
+    "canonifyurls": true
+}
