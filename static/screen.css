@@ -420,7 +420,7 @@ a {
 article {
   border-bottom: 1px solid #dddddd;
   border-top: 1px solid white;
-  padding: 30px 0;
+  padding: 20px 0 5px 0;
   position: relative; }
   @media screen and (max-width: 800px) {
     article {
@@ -447,10 +447,11 @@ article {
     article h2.title a {
       color: #666666; }
   article .entry-content {
-    line-height: 2;
-    text-align: justify; }
+    line-height: 2; }
     article .entry-content a:hover {
       text-decoration: underline; }
+    article .entry-content .more {
+      margin-top: 5px; }
     article .entry-content .more-link {
       display: block;
       margin-top: 16px;
@@ -477,7 +478,8 @@ article {
       color: #333;
       font-size: 18px;
       font-weight: 400;
-      line-height: 2em; }
+      line-height: 2em;
+      letter-spacing: 0.03em; }
     article .entry-content h2 {
       font-weight: 400;
       color: #333333;
