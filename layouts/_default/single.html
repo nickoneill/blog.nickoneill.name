@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>{{ .Title }}</title>
+
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="canonical" href="{{ .Permalink }}">
+	<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+{{ template "modules/header.html" }}
+
+<div id="content" class="inner">
+
+<article class="post">
+	<h2 class="title">{{ .Title }}</h2>
+	<div class="entry-content">{{ .Content }}</div>
+	{{ template "modules/meta.html" . }}
+</article>
+
+</div>
+
+{{ template "modules/footer.html" }}

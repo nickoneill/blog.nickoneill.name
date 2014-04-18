@@ -1,11 +1,8 @@
 <article class="post">
-<header>
-<h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
-<div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words </div>
-</header>
-
-{{ .Summary }}
-<footer>
-<a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
-</footer>
+	<h2 class="title"><a href='{{ .Permalink }}'>{{ .Title }}</a></h2>
+	<div class="entry-content">
+		<p>{{ .Summary }}</p>
+		<p><a href='{{ .Permalink }}'><nobr>More →</nobr></a></p>
+	</div>
+	{{ template "modules/meta.html" . }}
 </article>
