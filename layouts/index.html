@@ -18,6 +18,11 @@
 
 {{ template "modules/header.html" }}
 
+<div class="hithere inner">
+  <h2>Hi there!</h2>
+  <p>This is a blog from <a href="http://nickoneill.name">Nick O'Neill</a>. According to the content, it's mostly about <a href="/tags/san-francisco/">San Francisco</a>, <a href="/tags/tech/">Tech</a>, <a href="/tags/ux/">UX</a> and <a href="/tags/hardware/">Hardware</a>. If you want get regular updates, you can subscribe using the <a href="/index.xml">RSS feed</a>.</p>
+</div>
+
 <div id="content" class="inner">
 
 {{ range first 10 .Data.Pages }}

@@ -1,8 +1,7 @@
 ---
 published: true
 title: "A Personal Virtual Space"
-date: ["2012-02-10"]
-aliases: ["/a-personal-virtual-space.html"]
+date: "2012-02-10"
 tags: ["games", "minecraft"]
 ---
 High above the surrounding forrest, a [small wooden house sits on a pillar of stone](http://imgur.com/a/1DhuT)<sup>1</sup>. It has a single inhabitant who visits daily to improve on the structure and explore the world, often bringing back rare materials from mines underground or far away lands. For as far as we can compute, this land is devoid of any other humans or human-built structures. Sometimes a few friends visit, popping in and out of existence nearby and making their way to the sole pillar of sentience in a vast blockscape of computer generated valleys and oceans.
