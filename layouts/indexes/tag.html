@@ -20,7 +20,7 @@
 
 <div id="content" class="inner">
 <section class="archives">
-	<h1 class="year">Tag: {{ .Title }}</h1>
+	<h1 class="year">{{ .Title }}</h1>
 {{ range .Data.Pages }}
 	{{ .Render "summary"}}
 {{ end }}

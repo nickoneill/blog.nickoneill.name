@@ -26,6 +26,27 @@
 	{{ template "modules/meta.html" . }}
 </article>
 
+<div class="nextprev clearfix">
+	{{ if .Prev }}
+	<div class="prev">
+		<p>Next up:</p>
+		<h3><a href="{{ .Prev.Permalink }}">{{ .Prev.Title }}</a></h3>
+		{{ if .Prev.Description }}
+		<p>{{ .Prev.Description }}</p>
+		{{ end }}
+	</div>
+	{{ end }}
+	{{ if .Next }}
+	<div class="next">
+		<p>Previously:</p>
+		<h3><a href="{{ .Next.Permalink }}">{{ .Next.Title }}</a></h3>
+		{{ if .Next.Description }}
+		<p>{{ .Next.Description }}</p>
+		{{ end }}
+	</div>
+	{{ end }}
+</div>
+
 </div>
 
 {{ template "modules/footer.html" }}

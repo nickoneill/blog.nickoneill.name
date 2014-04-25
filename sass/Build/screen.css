@@ -110,6 +110,10 @@ a {
     @media screen and (max-width: 1040px) {
       #header h1 {
         float: none; } }
+  #header img {
+    float: left;
+    margin-top: -16px;
+    margin-right: 10px; }
 
 #main-nav {
   float: left;
@@ -438,6 +442,7 @@ article {
     article {
       padding: 15px 0; } }
   article p span {
+    display: inline !important;
     width: 140px;
     position: absolute;
     right: -160px;
@@ -492,6 +497,7 @@ article {
     article .entry-content h2 {
       font-weight: 400;
       color: #333333;
+      background-color: #eee;
       padding-left: 15px; }
     article .entry-content img, article .entry-content video {
       max-width: 100%;
@@ -543,6 +549,23 @@ article {
         width: 100%;
         height: 100%;
         margin-top: 0; }
+
+.nextprev {
+  padding: 8px 0;
+  border-bottom: 1px solid #dddddd; }
+  .nextprev .prev, .nextprev .next {
+    float: left;
+    width: 400px;
+    margin: 10px 0; }
+  .nextprev .next {
+    float: right;
+    text-align: right; }
+  .nextprev h3 {
+    margin: 8px 0;
+    font-size: 2em;
+    font-weight: normal; }
+  .nextprev p {
+    font-size: 1.3em; }
 
 .share {
   padding: 15px 0;

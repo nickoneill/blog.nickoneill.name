@@ -11,6 +11,7 @@ article{
 	}
 	p{
 		span{
+		display: inline !important;
 		width: 140px;
 		position: absolute;
 		right: -160px;
@@ -82,6 +83,7 @@ article{
 		h2{
 			font-weight: 400;
 			color: $color-gray00;
+			background-color: #eee;
 			padding-left: 15px;
 		}
 		img, video{
@@ -148,6 +150,27 @@ article{
 				margin-top: 0;
 			}
 		}
+	}
+}
+.nextprev{
+	padding: 8px 0;
+	border-bottom: 1px solid #dddddd;
+	.prev,.next{
+		float: left;
+		width: 400px;
+		margin: 10px 0;
+	}
+	.next{
+		float: right;
+		text-align: right;
+	}
+	h3{
+		margin: 8px 0;
+		font-size: 2em;
+		font-weight: normal;
+	}
+	p{
+		font-size: 1.3em;
 	}
 }
 .share{

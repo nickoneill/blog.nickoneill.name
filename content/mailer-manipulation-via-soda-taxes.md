@@ -1,6 +1,7 @@
 ---
 title: "Mailer Manipulation via Soda Taxes"
 date: "2014-03-04"
+description: "Glossy mailers against beverage taxes in San Francisco"
 tags: ["california", "san francisco"]
 ---
 If you're in San Francisco you may have received some interesting fear-based advertising today. Your first indication that something is wrong may be the bait-and-switch. The front of the mailer says:

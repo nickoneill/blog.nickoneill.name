@@ -1,6 +1,7 @@
 ---
 title: "The Best Building in San Francisco"
 date: 2014-03-23
+description: "Our best building is a little slice of east coast style"
 tags: [ "San Francisco" ]
 ---
 
