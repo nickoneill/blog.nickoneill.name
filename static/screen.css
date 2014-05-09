@@ -497,6 +497,7 @@ article {
     article .entry-content h2 {
       font-weight: 400;
       color: #333333;
+      background-color: #eee;
       padding-left: 15px; }
     article .entry-content img, article .entry-content video {
       max-width: 100%;
