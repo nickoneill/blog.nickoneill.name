@@ -14,7 +14,8 @@
       <author>Nick O'Neill</author>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
-    </item>
-    {{ end }}
+      {{ range .Params.tags }}
+      <category>{{ . }}</category>{{ end }}
+    </item>{{ end }}
   </channel>
 </rss>

@@ -7,6 +7,14 @@ aliases: ["/ice-maker-repair/"]
 ---
 If you've got one of these GE Profile refrigerators from a few years ago (this one was installed around 2004, model *PSS26MSRD*) and the ice maker isn't making ice, there are a few simple steps you can go through to troubleshoot.
 
+### Ice maker parts
+1. **Power light**
+2. **Swing arm**
+3. **Power/control plug**
+
+![parts](/images/geprofilerefrigeparts.jpg)
+
+
 ## issues with the icemaker itself
 
 First, pull out the ice bin and eyeball the ice maker device behind it. See if the switch is turned on and the green light is lit. If it's blinking, that indicates "ice stuck in tray" and you'll have to take it out and thaw the whole contraption out. It's not that hard: unplug the giant molex connector on the right side and use a small hex wrench to unscrew the obvious screw holding it to the left side of the freezer wall. Then you can firmly pull the device up and out until it pops free from the notches where it sits in the back.
