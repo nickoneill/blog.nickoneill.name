@@ -441,14 +441,18 @@ article {
   @media screen and (max-width: 600px) {
     article {
       padding: 15px 0; } }
-  article p span {
+  article aside {
     display: inline !important;
     width: 140px;
     position: absolute;
     right: -160px;
+    text-align: left; }
+  article .entry-content aside p {
+    position: relative;
+    top: -130px;
     font-size: 12px;
     line-height: 1.5em;
-    text-align: left; }
+  }
   article h3 {
     font-size: 1.7em;
     font-weight: 300;
