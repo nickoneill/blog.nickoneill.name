@@ -1,0 +1,17 @@
+---
+title: "Codestarter's Chromebook for Learning to Code"
+date: "2014-08-07"
+tags: ["chromebook","history"]
+description: "A free personal laptop for kids who want to code"
+---
+In my small experience with Chromebooks, they make a great guest machine for visiting friends and for personal use ChromeOS is somewhat hackable itself. For power users, given that the software is specifically designed for the hardware it's being run on, you have a nicely paired linux machine - probably a better choice than trying to find linux kernel extensions for your custom built machine.
+
+Although you can make ChromeOS a development environment if you're into VIM or emacs, it's probably the hardest way to get started coding. What if there was a linux laptop that was nicely paired to the software but was also a great platform for exploring and coding? And what if it only cost $250?
+
+Codestarter, a nonprofit based around giving code-interested kids a laptop to *keep*, is doing just that. They've documented the whole process of [turning a $199 Chromebook into a pretty awesome Ubuntu-based code machine](http://blog.codestarter.org/post/93985346780/how-we-turn-199-chromebooks-into-ubuntu-based-code). They obviously understand the kids they're targeting given their software choices: Ruby, Python, Node, Java and, of course, Minecraft.
+
+I can't help but think this would have been incredible for me growing up. I've been in a bit of a 90s startup nostalgia fest as I'm reading Ben Horowitz' [The Hard Thing About Hard Things](http://www.amazon.com/gp/product/B00DQ845EA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DQ845EA&linkCode=as2&tag=finestru-20&linkId=UZFRPJW3SVO2DWPR") as it brought me back to all these company names I was hearing about during my early teenage years. I was absolutely insatiable for tech news and everyone around me had no idea what I was even talking about. I was reaching the limit of what I could learn from the [Performa 6200CD](http://apple-history.com/6200) that was in the house (to be fair, it's amazing we even had a computer in the house at that time - I do credit my parents for knowing we should have one even if they were otherwise oblivious to how it could be used) and I wouldn't have another personal machine until [1999's iBook](http://apple-history.com/ibook) was introduced, and even then at significant personal expense for a kid barely in high school.
+
+Between those two machines, I spent all the free time I had on various computers around my school (also remarkably prescient about the role computers would play in our lives) either fixing problems or just playing around. Eventually I would build a few linux machines (and one BeOS machine!) from scrap parts but time spent on these was mostly struggling to get the (sometimes ancient) hardware and software working together without the benefit of the now-pervasive StackOverflow-style sites.
+
+The takeaway of all this text: If I could have spent $250 and had a personal laptop for the internet and code when I was in school, I would have jumped on that in a second. Which is to say the fact that Codestarter is *giving away* these laptops to kids who prove they're interested in coding is absolutely amazing.

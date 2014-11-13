@@ -16,14 +16,14 @@
 </head>
 <body>
 
-{{ template "modules/header.html" }}
+{{ template "theme/modules/header.html" }}
 
 <div id="content" class="inner">
 
 <article class="post">
 	<h2 class="title">{{ .Title }}</h2>
 	<div class="entry-content">{{ .Content }}</div>
-	{{ template "modules/meta.html" . }}
+	{{ template "theme/modules/meta.html" . }}
 </article>
 
 <div class="nextprev clearfix">
@@ -49,4 +49,4 @@
 
 </div>
 
-{{ template "modules/footer.html" }}
+{{ template "theme/modules/footer.html" }}

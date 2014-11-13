@@ -13,3 +13,5 @@ Yesterday NASA announced that they're [officially handing over the "keys"](http:
 **Update:** here's [an interesting  alternative take from the IEEE](http://spectrum.ieee.org/tech-talk/aerospace/satellites/space-hackers-prepare-to-reboot-35-year-old-spacecraft) regarding the recent advances in embedded systems and software defined radio that are helping the team rapidly prototype devices for communicating with ICE.
 
 **Update2:** I don't know how I missed [their proper site](http://spacecollege.org/isee3/) with an update today that they have established two-way communication with the spacecraft!
+
+**Update3:** [Bummer](http://www.theverge.com/2014/7/10/5886807/isee-3-space-probe-rescue-ends). After establishing contact with the probe and some successful test engine firing, the engines are no longer working. It seems like the spacecraft can still communicate and will continue to send back data, just not from the comet interception it was planning.

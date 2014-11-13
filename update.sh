@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# generate, defaults are fine
+hugo;
+
 # send everything in public to the root of blog
 # a: archive mode
 #		r: recursive
