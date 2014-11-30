@@ -540,6 +540,20 @@ article {
         line-height: 1.6em;
         position: absolute;
         left: 0; }
+    article .entry-content .fsq-venue {
+      background-color: white;
+      max-width: 99%;
+      min-width: 420px;
+      display: block;
+      margin: 20px auto 0 auto;
+      padding: 0px;
+      border-radius: 3px;
+      box-shadow: rgba(0,0,0,0.25) 0 1px 3px 0;
+      position: static;
+      visibility: visible;
+      float: none;
+      width: 680px;
+    }
     article .entry-content .video-container {
       position: relative;
       padding-bottom: 56.25%;
