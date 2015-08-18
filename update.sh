@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # generate, defaults are fine
-hugo;
+hugo --theme=blog-nickoneill;
 
 # send everything in public to the root of blog
 # a: archive mode
